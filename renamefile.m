@@ -12,7 +12,7 @@ for i=3:lens
        oldname=file(j).name;
        newname=count;
        img=imread([rootpath,files(i).name,'/',oldname]);
-        % '!'的意思是调用系统函数
+        % '!'璋冪敤绯荤粺榛樿鍛戒护reanme
        %eval(['!rename',oldname,newname]);
        newfile=[newpath,num2str(count),'.png'];
        imwrite(img,newfile)
